@@ -1,0 +1,44 @@
+const computeExpression = function(number1, number2, number3,number4, number5, number6){
+    return ((number1 * number2) - (number3 * number4)) / (number5 - number6);
+}
+console.log(computeExpression(9.5, 4.5, 2.5, 3, 45.5, 3.5));
+
+
+
+function summationOfASeries(numbers) {
+  let total = 0;
+  for (let i = 0; i < numbers.length; i++) {
+    total += numbers[i];
+  }
+  return total;
+}
+
+console.log(summationOfASeries([1, 2, 3, 4, 5, 6, 7, 8, 9]));
+
+
+
+let AreaAndPerimeterOfaCircle = function(pi, radius){
+    return perimeter = 2 * radius * pi
+    return Area = radius * radius * pi
+}
+console.log(AreaAndPerimeterOfaCircle(3.142, 5.5));
+
+
+
+let AreaAndPerimeterOfaRectangle = function(width, height){
+    return Area = width * height;
+}
+console.log(AreaAndPerimeterOfaRectangle(4.5, 7.9));
+
+
+
+let AverageSpeedInMiles = function(kilometers, minutes, seconds){
+          
+    miles = kilometers * 1.6;
+    minutes = minutes / 60;
+    seconds = seconds / 3600;
+        let hours = minutes + seconds;
+            return miles / hours;
+}
+console.log(AverageSpeedInMiles([14, 45, 30]));   
+
